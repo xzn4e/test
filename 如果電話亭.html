@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <style>
+      body {
+      background-color: rgb(50, 50, 50);
+      margin: 0;
+      font-family: Comic Sans MS, Arial;
+    }
+
+    #container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 20px;
+    }
+
+    #image {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      margin-right: 40px;
+      border-radius: 10px;
+    }
+
+    #content {
+      max-width: 600px;
+    }
+
+    #content h1 {
+      font-size: 50px;
+      font-family: SimSun, Arial;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    #content p {
+      font-size: 20px;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="金句.html">金句</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                道具介紹
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="時光布.html">時光布</a>
+                <a class="dropdown-item" href="雲朵凝固瓦斯.html">雲朵凝固瓦斯</a>
+                <a class="dropdown-item" href="翻譯蒟蒻.html">翻譯蒟蒻</a>
+                <a class="dropdown-item" href="如果電話亭.html">如果電話亭</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div id="container">
+      <img src="如果.jpg" alt=" " id="image">
+      <div id="content">
+        <h1>如果電話亭</h1>
+        <p style="font-family: SimSun;">
+         它是一種實驗室，讓你看看實驗後的成果。只要進入電話亭對著話筒說「如果……」，就會發生那樣的事。
+        </p>
+      </div>
+    </div>
+
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgb(199, 151, 8);">
+          Wanna know more? 
+          <a class="text-body" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhHnM_ncEjBPdABczwcWonzpfesyZ1l44D4Q&" target="_blank">click here!</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+  </body>
+
+</html>
